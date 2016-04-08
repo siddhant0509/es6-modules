@@ -1,1 +1,1 @@
-# es6-polyfill and basic implementation modules of object oriented and functional construct;
+# Implementation of Modules which might be useful for daily life usage
