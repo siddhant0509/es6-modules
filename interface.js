@@ -1,3 +1,5 @@
+"use strict";
+
 var implement = function(interface){
 	var obj = Object.create(interface);
 	obj["fn"] = function(name,fn){
@@ -16,8 +18,9 @@ var interface = function(){
 	return obj;
 };
 
-
-export {
+export default {
 	implement,
 	interface
-}
+};
+
+
